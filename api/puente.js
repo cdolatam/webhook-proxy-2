@@ -16,6 +16,7 @@ export default async function handler(req, res) {
   const fields = body.subscriber?.fields || {};
 
   const mappedData = {
+    "ID": fields.id || '',
     "Company Size": fields.tamano_de_empresa || '',
     "Business Sector": fields.rubro_de_empresa || '',
     "Another Position": fields.position_add || '',
