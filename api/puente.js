@@ -17,20 +17,20 @@ export default async function handler(req, res) {
 
   const mappedData = {
     "ID": body.subscriber?.id || '',
-    "Company Size": fields.tamano_de_empresa || '',
-    "Business Sector": fields.rubro_de_empresa || '',
-    "Another Position": fields.position_add || '',
+    "CompanySize": fields.tamano_de_empresa || '',
+    "BusinessSector": fields.rubro_de_empresa || '',
+    "AnotherPosition": fields.position_add || '',
     "Position": fields.position || '',
     "Phone": fields.phone || '',
-    "Other Business Sector": fields.otro_rubro || '',
+    "OtherBusinessSector": fields.otro_rubro || '',
     "Name": fields.name || '',
     "LinkedIn": fields.linkedin || '',
-    "Last Name": fields.last_name || '',
-    "Identify Document": fields.identify_document || '',
+    "LastName": fields.last_name || '',
+    "IdentifyDocument": fields.identify_document || '',
     "Country": fields.country || '',
-    "Consentimiento Para Compartir Datos": fields.consentimiento_para_compartir_datos || '',
+    "ConsentimientoParaCompartirDatos": fields.consentimiento_para_compartir_datos || '',
     "Company": fields.company || '',
-    "¿Eres Asociado de CDO LATAM?": fields.asociado_cdo_latam || '',
+    "¿EresAsociadodeCDOLATAM?": fields.asociado_cdo_latam || '',
     "Email": body.subscriber?.email || ''
   };
 
